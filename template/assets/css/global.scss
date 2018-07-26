@@ -1,0 +1,31 @@
+@import './reset.scss';
+@import './variables.scss';
+
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: $font-family-regular;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    background-color: $white;
+    color: $gray-222;
+    font-size: 14px;
+    line-height: 1.375;
+}
