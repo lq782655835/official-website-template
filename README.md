@@ -4,17 +4,19 @@
 
 1. 开发规范：eslint + stylelint + perttier
 
-1. 提交规范：commitlint + husky
+1. 提交规范：commitlint + ~~husky~~
 
-1. css处理： scss + scss resource
+1. css处理： ~~scss + scss resource~~
 
 1. 组件 
 
-   * 常用组件： link + button + icon + input
+   * 常用组件： ~~link + button + icon + input + modal~~
 
-   * 布局组件： header + footer
+   * 布局组件： ~~header + footer~~
 
-   * 第三方常用： slider
+   * 第三方： slider
+
+1. 动画库： wow.js
 
 1. 请求层： axios
 
