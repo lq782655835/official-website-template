@@ -2,7 +2,9 @@
 
  > 为SEO的官网，定制初始模板，方便进行快速业务。基于nuxt框架，把一些官网项目中的痛点封装到脚手架中，防止重复开发。（快速开发中）
 
-1. 开发规范：eslint + stylelint + perttier + husky
+1. 开发规范：eslint + stylelint + perttier
+
+1. 提交规范：commitlint + husky
 
 1. css处理： scss + scss resource
 

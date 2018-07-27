@@ -1,6 +1,6 @@
-# nuxt-ts
+# official-website
 
-> Nuxt.js TypeScript project
+> quickly created a official website with seo
 
 ## Build Setup
 

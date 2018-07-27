@@ -14,7 +14,7 @@ module.exports = {
         type: "string",
         required: false,
         message: "Project description",
-        default: "quickly created a official website with seo"
+        default: "quickly created a official website with seo and other feature"
       },
       author: {
         type: "string",
