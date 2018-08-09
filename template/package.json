@@ -13,7 +13,7 @@
         "svg": "vsvg -s ./assets/svg -t ./assets/icon",
         "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
         "format": "prettier --write './**/*.{js,ts,vue,json}'",
-        "precommit": "npm run format && npm run lint"
+        "precommit": "npm run format && npm run lint && git add ."
     },
     "dependencies": {
         "nuxt": "^1.3.0"
