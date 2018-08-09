@@ -2,25 +2,25 @@
 
  > 为SEO的官网，定制初始模板，方便进行快速业务。基于nuxt框架，把一些官网项目中常用的feature封装到脚手架中，防止重复造轮子。
 
-1. 开发规范：~~eslint~~ + stylelint + ~~perttier~~
+- [x] 开发规范：eslint + stylelint(暂时没加) + perttier
 
-1. 提交规范：~~commitlint（暂时不限制） + husky~~
+- [x] 提交规范：commitlint（暂时不限制） + husky
 
-1. css处理： ~~scss + scss resource~~
+- [x] css处理： scss + scss resource
 
-1. 组件 
+- [x] 组件 
 
-   * 常用组件： ~~link + button + icon + input + section + modal + select + tabs~~
+   - [x] 常用组件： link + button + icon + input + modal + select + tabs
 
-   * 布局组件： ~~header + footer~~
+   - [x] 布局组件： header + footer
 
-   * 第三方插件：~~vue-awesome-swiper~~
+   - [x] 第三方插件：vue-awesome-swiper
 
-1. 动画库： wow.js
+- [ ] 动画库： wow.js
 
-1. 请求层： ~~axios~~
+- [x] 请求层： axios
 
-1. 数据： ~~store~~
+- [x] 数据： store
 
 ## 基本用法
 

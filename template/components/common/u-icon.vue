@@ -15,7 +15,7 @@ export default {
         name: { type: String, default: '' },
         src: { type: String, default: '' },
         disclick: { type: Boolean, default: false },
-        scale: { type: String, default: '1' }
+        scale: { type: [String, Number], default: '1' }
     },
     computed: {
         imgSrc() {
