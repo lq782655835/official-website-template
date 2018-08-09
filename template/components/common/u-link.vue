@@ -56,6 +56,9 @@ export default {
 
 <style lang="scss" scoped>
 .u-link {
-    color: $white;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    color: inherit;
 }
 </style>

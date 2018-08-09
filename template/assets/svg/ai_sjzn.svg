@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="26px" viewBox="0 0 50 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic数据</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="57" height="60"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1首页" transform="translate(-1294.000000, -659.000000)">
+            <g id="AI能力-灰底" transform="translate(0.000000, 472.000000)">
+                <g id="ic数据" transform="translate(1290.000000, 169.000000)">
+                    <path d="M50,27 C48.3431458,27 47,25.6568542 47,24 C47,22.3431458 48.3431458,21 50,21 C51.6568542,21 53,22.3431458 53,24 C53,25.6568542 51.6568542,27 50,27 Z M36.3125295,43 C34.7866384,43 33.5496593,41.7703625 33.5496593,40.2535278 C33.5496593,38.7366931 34.7866384,37.5070557 36.3125295,37.5070557 C37.8384206,37.5070557 39.0753998,38.7366931 39.0753998,40.2535278 C39.0753998,41.7703625 37.8384206,43 36.3125295,43 Z M22,25 C20.3431458,25 19,23.6568542 19,22 C19,20.3431458 20.3431458,19 22,19 C23.6568542,19 25,20.3431458 25,22 C25,23.6568542 23.6568542,25 22,25 Z M8,41 C6.34314575,41 5,39.6568542 5,38 C5,36.3431458 6.34314575,35 8,35 C9.65685425,35 11,36.3431458 11,38 C11,39.6568542 9.65685425,41 8,41 Z" id="Combined-Shape" stroke="#4383DB" stroke-width="2"></path>
+                    <path d="M20.1417854,24.5209453 L10.4014666,36.3792828" id="Path-24" stroke="#4383DB" stroke-width="2"></path>
+                    <path d="M23.7511755,24.4487111 L34.7101796,37.6733748" id="Path-25" stroke="#4383DB" stroke-width="2"></path>
+                    <path d="M48.1301563,26.0731662 L37.9583986,37.7647554" id="Path-26" stroke="#4383DB" stroke-width="2"></path>
+                    <g id="Rectangle-36" opacity="0">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="56" height="59"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

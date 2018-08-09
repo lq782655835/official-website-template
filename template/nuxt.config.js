@@ -1,6 +1,6 @@
 module.exports = {
     head: {
-        title: 'AI平台官网',
+        title: 'XXX官网',
         meta: [
             { charset: 'utf-8' },
             {
@@ -24,6 +24,7 @@ module.exports = {
     loading: false,
     css: [{ src: '~assets/css/global.scss', lang: 'scss' }],
     build: {
+        vendor: ['axios'],
         extend(config, { isDev, isClient }) {
             config.resolve.alias['vue'] = 'vue/dist/vue.common.js'
 
@@ -45,10 +46,8 @@ module.exports = {
             })
         }
     },
-    modules: ['@nuxtjs/axios'],
-    plugins: ['~plugins/vue-global'],
+    plugins: ['~plugins/vue-global', { src: '~plugins/third', ssr: false }],
     env: {
-        baseUrl: process.env.BASE_URL
-    },
-    axios: {}
+        BASE_URL: process.env.BASE_URL || 'https://cnodejs.org/api/v1'
+    }
 }

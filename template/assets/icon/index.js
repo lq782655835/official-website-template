@@ -1,0 +1,10 @@
+/* eslint-disable */
+require('./advantage')
+require('./ai_menu')
+require('./ai_sjzn')
+require('./ai_zryycl')
+require('./ai-jsjsj')
+require('./ai-znyy')
+require('./close')
+require('./logo_bottom')
+require('./logo')

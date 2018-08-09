@@ -1,0 +1,103 @@
+[
+    [
+        {
+            "name": "身份验证",
+            "icon": "solution-sfyz",
+            "desc":
+                "利用人脸验证技术，判断身份证持证人是否为本人。可用于酒店、安检口、业务办理类app等实际场景",
+            "url": "/solution/sfyz",
+            "bgImage": "solution-sfyz-h.png"
+        },
+        {
+            "name": "人脸美颜",
+            "icon": "solution-rlmy",
+            "desc":
+                "基于人脸检测、面部关键点定位技术，实现人脸美肤、人脸美型、动态贴纸效果、画面滤镜等多种功能。可用于视频直播、短视频拍摄、美颜相机等多种场景",
+            "url": "/solution/rlmy",
+            "bgImage": "solution-rlmy-h.png"
+        },
+        {
+            "name": "智能会议",
+            "icon": "solution-znhy",
+            "desc":
+                "基于人脸识别技术，提供参会人员刷脸签到功能；基于语音识别技术，提供会议语音记录、文字转写记录功能；基于实时流式语音识别技术，提供实时会议字幕投屏功能",
+            "url": "/solution/znhy",
+            "bgImage": "solution-znhy-h.png"
+        },
+        {
+            "name": "视频翻译",
+            "icon": "solution-spfy",
+            "desc": "基于语音识别技术和机器翻译技术，提供语音翻译、影视作品字幕翻译功能",
+            "url": "/solution/spfy",
+            "bgImage": "solution-spfy-h.png"
+        }
+    ],
+    [
+        {
+            "name": "智能客服",
+            "icon": "solution-znkf",
+            "desc":
+                "提供可定制化的在线智能客服服务，基于领先的自然语言处理技术，实现智能问答匹配、用户意图识别、多轮会话配置等功能。广泛应用于电商、金融、政企业务咨询等场景",
+            "url": "/solution/znkf",
+            "bgImage": "solution-znkf-h.png"
+        },
+        {
+            "name": "语音交互机器人",
+            "icon": "solution-yyjhjqr",
+            "desc":
+                "基于语音识别和自然语言处理技术，打造可实现人机语音交互的智能机器人。可以自定义配置机器人知识库，实现多领域、多场景下的自助式语音交互服务",
+            "url": "/solution/yyjhjqr",
+            "bgImage": "solution-yyjhjqr-h.png"
+        },
+        {
+            "name": "网络内容审核",
+            "icon": "solution-wlnrsh",
+            "desc":
+                "基于图像识别、语音识别、自然语言处理技术，提供全方位监控审核文字、图片、语音、视频等内容，可以检测色情、暴恐、政治敏感、广告等内容，支持定制化",
+            "url": "/solution/wlnrsh",
+            "bgImage": "solution-wlnrsh-h.png"
+        },
+        {
+            "name": "线下智慧门店",
+            "icon": "solution-xxzhmd",
+            "desc":
+                "线下实体商店场景，通过摄像头进行人脸识别，识别会员信息，可用于商业数据分析、定向营销等",
+            "url": "/solution/xxzhmd",
+            "bgImage": "solution-xxzhmd-h.png"
+        }
+    ],
+    [
+        {
+            "name": "客流估计",
+            "icon": "solution-klgj",
+            "desc":
+                "基于行人检测、客流估计技术，在商场、店铺等实际场景中，进行用户客流量统计，可用于安防监控、商业数据分析等",
+            "url": "/solution/klgj",
+            "bgImage": "solution-klgj-h.png"
+        },
+        {
+            "name": "教育辅导",
+            "icon": "solution-jyfd",
+            "desc":
+                "基于语音识别和自然语言处理技术，针对教育场景，可以实现知识互动问答、自动评测、口语发音纠正等功能。可用于外语口语学习、单词背诵、行业知识记忆等场景",
+            "url": "/solution/jyfd",
+            "bgImage": "solution-jyfd-h.png"
+        },
+        {
+            "name": "数据智能平台",
+            "icon": "solution-sjznpt",
+            "desc":
+                "基于人脸检测，面部关键点定位技术，实现人脸美肤，基于人脸检测，面部关键点定位技术",
+            "url": "/",
+            "bgImage": "solution-sjznpt-h.png"
+        },
+        {
+            "name": "深度学习平台",
+            "icon": "solution-sdxxpt",
+            "desc":
+                "基于人脸检测，面部关键点定位技术，实现人脸美肤，基于人脸检测，面部关键点定位技术",
+            "url": "/",
+            "bgImage": "solution-sdxxpt-h.png"
+        }
+    ]
+]

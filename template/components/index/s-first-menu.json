@@ -1,0 +1,379 @@
+[
+    {
+        "name": "计算机视觉",
+        "icon": "ai-jsjsj",
+        "subject": [
+            {
+                "name": "OCR",
+                "rows": [
+                    [
+                        {
+                            "name": "自然场景",
+                            "url": "/vision/zrcj"
+                        },
+                        {
+                            "name": "文档场景",
+                            "url": "/vision/wdcj"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "图像识别",
+                "rows": [
+                    [
+                        {
+                            "name": "场景识别",
+                            "url": "/vision/cjsb"
+                        },
+                        {
+                            "name": "图像审核",
+                            "url": "/vision/txsh"
+                        },
+                        {
+                            "name": "广告识别",
+                            "url": "/vision/ggsb"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "人脸识别",
+                "rows": [
+                    [
+                        {
+                            "name": "人脸检测",
+                            "url": "/vision/rljc"
+                        },
+                        {
+                            "name": "人脸属性分析",
+                            "url": "/vision/rlsxfx"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "人脸验证",
+                            "url": "/vision/rlyz"
+                        },
+                        {
+                            "name": "面部关键点定位",
+                            "url": "/vision/mbgjddw"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "图片特效",
+                "rows": [
+                    [
+                        {
+                            "name": "人脸美肤",
+                            "url": "/vision/rlmf"
+                        },
+                        {
+                            "name": "人脸美型",
+                            "url": "/vision/rlmx"
+                        },
+                        {
+                            "name": "人脸贴图",
+                            "url": "/vision/rltt"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "人脸滤镜",
+                            "url": "/vision/rllj"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "视频理解",
+                "rows": [
+                    [
+                        {
+                            "name": "视频标签",
+                            "url": "/vision/spdbq"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "人体分析",
+                "rows": [
+                    [
+                        {
+                            "name": "客流分析",
+                            "url": "/vision/klgj"
+                        },
+                        {
+                            "name": "手势识别",
+                            "url": "/vision/sssb"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "视觉跟踪",
+                "rows": [
+                    [
+                        {
+                            "name": "2D物体跟踪",
+                            "url": "/vision/sjgz"
+                        },
+                        {
+                            "name": "3D物体跟踪",
+                            "url": "/vision/sjgz"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "三维场景重建",
+                "rows": [
+                    [
+                        {
+                            "name": "场景理解",
+                            "url": "/vision/swcjcj"
+                        },
+                        {
+                            "name": "视觉SLAM",
+                            "url": "/vision/swcjcj"
+                        },
+                        {
+                            "name": "VIO",
+                            "url": "/vision/swcjcj"
+                        }
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "name": "智能语音",
+        "icon": "ai-znyy",
+        "subject": [
+            {
+                "name": "语音识别",
+                "rows": [
+                    [
+                        {
+                            "name": "短语音识别",
+                            "url": "/voice/dyysb"
+                        },
+                        {
+                            "name": "流式语音识别",
+                            "url": "/voice/lsyysb"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "长语音识别",
+                            "url": "/voice/cyysb"
+                        },
+                        {
+                            "name": "远场语音识别",
+                            "url": "/voice/ycyysb"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "声纹识别",
+                "url": "/voice/swsb"
+            },
+            {
+                "name": "语音评测",
+                "url": "/voice/yycp"
+            },
+            {
+                "name": "语音唤醒",
+                "url": "/voice/yyhx"
+            },
+            {
+                "name": "语音合成",
+                "url": "/voice/yyhc"
+            },
+            {
+                "name": "语音模型自主训练",
+                "url": "/voice/zzxl"
+            }
+        ]
+    },
+    {
+        "name": "自然语言处理",
+        "icon": "ai_zryycl",
+        "subject": [
+            {
+                "name": "机器翻译",
+                "rows": [
+                    [
+                        {
+                            "name": "语音翻译",
+                            "url": "/language/yyfy"
+                        },
+                        {
+                            "name": "视频翻译",
+                            "url": "/language/spfy"
+                        },
+                        {
+                            "name": "通用翻译",
+                            "url": "/language/tyfy"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "机器人",
+                "rows": [
+                    [
+                        {
+                            "name": "智能FAQ机器人",
+                            "url": "/language/wdjqr"
+                        },
+                        {
+                            "name": "行业知识库",
+                            "url": "/language/hyzsk",
+                            "right": true
+                        }
+                    ],
+                    [
+                        {
+                            "name": "智能会话机器人",
+                            "url": "/language/hhjqr"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "评论观点分析",
+                "url": "/language/plgdfx"
+            },
+            {
+                "name": "情感分析",
+                "url": "/language/qgfx"
+            },
+            {
+                "name": "文章分析",
+                "url": "/language/wzfx"
+            }
+        ]
+    },
+    {
+        "name": "数据智能",
+        "icon": "ai_sjzn",
+        "subject": [
+            {
+                "name": "用户特征分析",
+                "rows": [
+                    [
+                        {
+                            "name": "用户特征识别",
+                            "url": "/data/yhtz"
+                        },
+                        {
+                            "name": "连续用户画像",
+                            "url": "/data/yhtz",
+                            "right": true
+                        }
+                    ],
+                    [
+                        {
+                            "name": "异常检测",
+                            "url": "/data/yhtz"
+                        },
+                        {
+                            "name": "潜在客户识别",
+                            "url": "/data/yhtz",
+                            "right": true
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "用户行为分析",
+                "rows": [
+                    [
+                        {
+                            "name": "行为预测/意图识别",
+                            "url": "/data/yhxw"
+                        }
+                    ],
+                    [
+                        {
+                            "name": "用户价值预测",
+                            "url": "/data/yhxw"
+                        },
+                        {
+                            "name": "消费能力预测",
+                            "url": "/data/yhxw",
+                            "right": true
+                        }
+                    ],
+                    [
+                        {
+                            "name": "热点预测",
+                            "url": "/data/yhxw"
+                        },
+                        {
+                            "name": "生命周期管理",
+                            "url": "/data/yhxw",
+                            "right": true
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "用户引导",
+                "rows": [
+                    [
+                        {
+                            "name": "用户配对引导优化",
+                            "url": "/data/yhyd"
+                        },
+                        {
+                            "name": "用户运营优化",
+                            "url": "/data/yhyd",
+                            "right": true
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "供应链管理",
+                "rows": [
+                    [
+                        {
+                            "name": "需求预测",
+                            "url": "/data/gylgl"
+                        },
+                        {
+                            "name": "收入管理",
+                            "url": "/data/gylgl"
+                        },
+                        {
+                            "name": "库存管理",
+                            "url": "/data/gylgl"
+                        }
+                    ]
+                ]
+            },
+            {
+                "name": "商品/服务优化",
+                "rows": [
+                    [
+                        {
+                            "name": "爆品预测",
+                            "url": "/data/fwyh"
+                        },
+                        {
+                            "name": "商品竞品发现",
+                            "url": "/data/fwyh",
+                            "right": true
+                        }
+                    ]
+                ]
+            }
+        ]
+    }
+]

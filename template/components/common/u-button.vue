@@ -22,16 +22,22 @@ export default {
     padding: 10px 18px;
     line-height: 1.42em;
     border-radius: 3px;
-    border: 1px solid #0092ff;
-    color: $blue-btn-link;
+    color: #000000;
+    background-color: #ffffff;
 
     &[size='m'] {
-        width: 120px;
+        padding: 16px 85px;
+        font-size: 20px;
+    }
+
+    &[size='l'] {
+        padding: 16px 115px;
+        font-size: 20px;
     }
 
     &[color='primary'] {
-        background-color: $blue-btn-link;
-        color: $white;
+        background-color: #000000;
+        color: #ffffff;
     }
 }
 </style>

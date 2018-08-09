@@ -1,6 +1,6 @@
-# official-website
+# official-website-template
 
-> quickly created a official website with seo
+> official website project base on nuxt
 
 ## Build Setup
 

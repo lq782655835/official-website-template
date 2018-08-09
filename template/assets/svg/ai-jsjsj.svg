@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="31px" viewBox="0 0 50 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic眼睛</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="57" height="60"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1首页" transform="translate(-390.000000, -656.000000)">
+            <g id="AI能力-灰底" transform="translate(0.000000, 472.000000)">
+                <g id="ic眼睛" transform="translate(386.000000, 169.000000)">
+                    <path d="M29,45 C42.4257524,45 53,33.0096949 53,30.9515442 C53,28.8933936 43.1619637,16 29,16 C14.8380363,16 5,28.9240702 5,30.9515442 C5,32.9790183 15.5742476,45 29,45 Z" id="Oval-9" stroke="#4383DB" stroke-width="2"></path>
+                    <path d="M29,27 C26.790861,27 25,28.790861 25,31" id="Oval-11" stroke="#4383DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M36.592303,33.5281731 C36.8567847,32.7335312 37,31.8834904 37,31 C37,26.581722 33.418278,23 29,23 C24.581722,23 21,26.581722 21,31 C21,35.418278 24.581722,39 29,39 C30.5611441,39 32.0178463,38.5528309 33.2490082,37.7795911" id="Oval-10" stroke="#4383DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Rectangle-36" opacity="0">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="56" height="59"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
