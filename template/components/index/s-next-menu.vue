@@ -3,7 +3,7 @@
         <div v-for="(row, index) in data" :key="index" class="menu-row">
             <u-link v-for="(cell, cellindex) in row"  :key="cellindex"
                 @click="gotoPage" :to="cell.url"
-                class="cell">{{cell.name}}</u-link>
+                class="cell">\{{cell.name}}</u-link>
         </div>
     </div>
 </template>

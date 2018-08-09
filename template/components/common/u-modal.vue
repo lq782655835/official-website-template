@@ -5,13 +5,13 @@
                 <div class="u-modal-head">
                     <slot name="head">
                         <div v-if="title" class="title">
-                            <slot name="title">{{ title }}</slot>
+                            <slot name="title">\{{ title }}</slot>
                         </div>
                         <u-icon name="close" @click="cancel()" class="close"></u-icon>
                     </slot>
                 </div>
                 <div class="u-modal-body">
-                    <slot>{{ content }}</slot>
+                    <slot>\{{ content }}</slot>
                 </div>
             </div>
         </div>

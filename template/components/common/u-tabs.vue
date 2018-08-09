@@ -5,7 +5,7 @@
                 :class="['u-tab', {'selected': index === activeIndex}]"
                 v-on="listeners"
                 @click.prevent="handleClick(index, itemVM)">
-                {{itemVM.title}}
+                \{{itemVM.title}}
             </li>
         </ul>
         <div class="u-tabs-content">

@@ -1,6 +1,6 @@
 <template>
   <div @click="onclick" class="ai-select-container-item" :class="{ 'isSelected': isSelected }" :data-label="label" :data-value="value">
-    {{ label }}
+    \{{ label }}
   </div>
 </template>
 

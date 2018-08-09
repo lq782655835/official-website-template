@@ -3,17 +3,17 @@
         <div v-for="group in ai" :key="group.name" :class="['cat-group', {'noNav': !isNavMenu}]">
             <h3 class="cat-tit">
                 <u-icon v-if="!isNavMenu" :name="group.icon"></u-icon>
-                <span>{{group.name}}</span>
+                <span>\{{group.name}}</span>
             </h3>
             <ul class="cat-list">
                 <li v-for="subject in group.subject" :key="subject.name" class="cat-item">
                     <div class="cat-item-main">
-                        <u-link v-if="subject.url" @click="gotoPage" :to="subject.url">{{subject.name}}</u-link>
-                        <span v-else>{{subject.name}}</span>
+                        <u-link v-if="subject.url" @click="gotoPage" :to="subject.url">\{{subject.name}}</u-link>
+                        <span v-else>\{{subject.name}}</span>
                     </div>
                     <div class="cat-item-sub">
                         <div v-for="(row,index) in subject.rows" :key="index" class="cat-item-row">
-                            <u-link v-for="item in row" :key="item.name" @click="gotoPage" :class="{'right': item.right}" :to="item.url">{{item.name}}</u-link>
+                            <u-link v-for="item in row" :key="item.name" @click="gotoPage" :class="{'right': item.right}" :to="item.url">\{{item.name}}</u-link>
                         </div>
                     </div>
                 </li>

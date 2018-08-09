@@ -1,6 +1,6 @@
 <template>
     <div class="section" :style="{'backgroundColor': bgColor}">
-        <div class="section-tit">{{title}}</div>
+        <div class="section-tit">\{{title}}</div>
         <slot></slot>
     </div>
 </template>

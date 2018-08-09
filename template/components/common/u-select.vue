@@ -1,7 +1,7 @@
 <template>
   <div ref="ai-select" :class="['ai-select']">
     <div @click.stop="clickInput" :class="{ 'disabled': disabled }" class="ai-select-display">
-      <span :class="{ 'ai-select-notSelected': !crtSelectedLabel }">{{ crtSelectedLabel }}</span>
+      <span :class="{ 'ai-select-notSelected': !crtSelectedLabel }">\{{ crtSelectedLabel }}</span>
       <span :class="ifShowList ? 'right' : 'down'" class="ai-icon-chevron_right arraw"></span>
     </div>
     <div v-if="ifShowList" class="ai-select-container">

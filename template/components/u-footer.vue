@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="f-bottom">
-            {{copyright}}
+            \{{copyright}}
         </div>
     </div>
 </template>
@@ -19,7 +19,7 @@
 export default {
     data() {
         return {
-            copyright: `©1997-${new Date().getFullYear()} 网易公司版权所有`
+            copyright: `©1997-${new Date().getFullYear()} XX公司版权所有`
         }
     }
 }

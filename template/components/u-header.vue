@@ -5,8 +5,8 @@
             <div class="u-header-nav">
                 <ul class="u-header-content">
                     <li v-for="item in navs" :key="item.name" :class="['u-header-content-item',{'disable': item.disable}]">
-                        <u-link v-if="item.url" :to="item.url">{{item.name}}</u-link>
-                        <p v-else ><span class="hasmenu">{{item.name}}</span><i class="arraw down"></i></p>
+                        <u-link v-if="item.url" :to="item.url">\{{item.name}}</u-link>
+                        <p v-else ><span class="hasmenu">\{{item.name}}</span><i class="arraw down"></i></p>
                         <div class="cat" v-if="item.name==='菜单1'">
                             <div class="cat-box">
                                 <s-first-menu />
