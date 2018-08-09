@@ -1,7 +1,7 @@
 <template>
     <div class="g-footer">
         <div class="f-content layout">
-            <u-icon name="logo_bottom" href="https://ai.163.com/"></u-icon>
+            <u-icon name="logo" scale="0.3" href="https://ai.163.com/" />
             <div class="linkus">
                 <h3>联系我们</h3>
                 <p>18587878787 王先生</p>
@@ -9,9 +9,7 @@
                 <p>杭州市滨江区测试测试文字测试文字</p>
             </div>
         </div>
-        <div class="f-bottom">
-            \{{copyright}}
-        </div>
+        <div class="f-bottom">\{{copyright}}</div>
     </div>
 </template>
 

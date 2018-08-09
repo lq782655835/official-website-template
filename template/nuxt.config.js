@@ -22,7 +22,7 @@ module.exports = {
         ]
     },
     loading: false,
-    css: [{ src: '~assets/css/global.scss', lang: 'scss' }],
+    css: ['swiper/dist/css/swiper.css', { src: '~assets/css/global.scss', lang: 'scss' }],
     build: {
         vendor: ['axios'],
         extend(config, { isDev, isClient }) {

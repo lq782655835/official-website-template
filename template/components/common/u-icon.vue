@@ -1,7 +1,7 @@
 <template>
     <a :class="['u-icon', `u-icon-${name}`, {'disclick': disclick}]" 
     :href="href" :disabled="disabled" @click="onClick" v-on="listeners">
-        <svgicon v-if="name" :name="name" scale="1" v-bind="$attrs" original></svgicon>
+        <svgicon v-if="name" :name="name" :scale="scale" v-bind="$attrs" original></svgicon>
         <img v-if="src" :src="imgSrc" v-bind="$attrs"/>
     </a>
 </template>
@@ -14,7 +14,8 @@ export default {
     props: {
         name: { type: String, default: '' },
         src: { type: String, default: '' },
-        disclick: { type: Boolean, default: false }
+        disclick: { type: Boolean, default: false },
+        scale: { type: String, default: '1' }
     },
     computed: {
         imgSrc() {

@@ -26,7 +26,7 @@ export default {
                 }
             ],
             swiperOption: {
-                loop: false,
+                loop: true,
                 speed: 1000,
                 effect: 'fade',
                 centeredSlides: true,

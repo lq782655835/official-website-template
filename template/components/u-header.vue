@@ -1,7 +1,7 @@
 <template>
     <div class="u-header">
         <div class="layout clearfix">
-            <u-icon name="logo" to="/" class="u-header-logo"></u-icon>
+            <u-icon name="logo" to="/" scale="0.15" class="u-header-logo" />
             <div class="u-header-nav">
                 <ul class="u-header-content">
                     <li v-for="item in navs" :key="item.name" :class="['u-header-content-item',{'disable': item.disable}]">
