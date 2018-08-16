@@ -1,6 +1,6 @@
 # official-website-template
 
- > 为SEO的官网，定制初始模板，方便进行快速业务。基于nuxt框架，把一些官网项目中常用的feature封装到脚手架中，防止重复造轮子。
+ > 为SEO的官网，定制初始模板，进行快速业务开发。官网脚手架思路[见此处](https://github.com/lq782655835/blogs/issues/11)
 
 - [x] 开发规范：eslint + stylelint(暂时没加) + perttier
 
