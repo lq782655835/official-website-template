@@ -18,6 +18,8 @@
 
 - [ ] 动画库： wow.js
 
+- [x] 路由: vue-router
+
 - [x] 请求层： axios
 
 - [x] 数据： store
