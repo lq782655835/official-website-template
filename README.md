@@ -1,38 +1,36 @@
 # official-website-template
 
- > 为SEO的官网，定制初始模板，进行快速业务开发。官网脚手架思路[见此处](https://github.com/lq782655835/blogs/issues/11)
+quickly created an official website with seo
 
-- [x] 开发规范：eslint + stylelint(暂时没加) + perttier
+## Compatibility
 
-- [x] 提交规范：commitlint（暂时不限制） + husky
+- [x] code standard：eslint + stylelint + perttier
 
-- [x] css处理： scss + scss resource
+- [x] commit standard：commitlint + husky
 
-- [x] 组件 
+- [x] css： scss + scss resource
 
-   - [x] 常用组件： link + button + icon + input + modal + select + tabs
+- [x] vue: vue-router + vuex + axios
 
-   - [x] 布局组件： header + footer
+- [x] component
 
-   - [x] 第三方插件：vue-awesome-swiper
+   - [x] light component： link + button + icon + input + modal + select + tabs
 
-- [ ] 动画库： wow.js
+   - [x] layout component： header + footer
 
-- [x] 路由: vue-router
+   - [x] plugins：vue-awesome-swiper
 
-- [x] 请求层： axios
+- [ ] animation lib： wow.js
 
-- [x] 数据： store
+## Usage
 
-## 基本用法
-
-### 安装vue-cli
+### Install vue-cli
 
 ``` shell
 $ npm install -g vue-cli
 ```
 
-### 安装项目
+### Quick Start
 
 ``` shell
 $ vue init lq782655835/official-website-template my-project
@@ -40,7 +38,12 @@ $ cd my-project
 $ npm install && npm run dev
 ```
 
-项目截图：
+## Preview
+
 ![image](https://user-images.githubusercontent.com/6310131/43903660-82273760-9c1f-11e8-9a48-797902189415.png)
 
 ![image](https://user-images.githubusercontent.com/6310131/43903750-ae125b5c-9c1f-11e8-9077-dafd07892ce8.png)
+
+## License
+
+The code is distributed under the [MIT](http://opensource.org/licenses/MIT) license
