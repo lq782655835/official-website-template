@@ -1,0 +1,43 @@
+$content-width: 1200px;
+
+$white: #ffffff;
+$black: #000000;
+$primary-color: #457BF4;
+$border-color: #EFEFEF;
+
+$font-family-medium: 'PingFangSC-Medium', Helvetica, Tahoma, Arial, 'Microsoft YaHei',
+    'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+$font-family-regular: 'PingFangSC-Regular', Helvetica, Tahoma, Arial, 'Microsoft YaHei',
+    'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+
+@mixin font-class($fontFamily, $fontSize, $fontColor, $isBold) {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    @if $isBold {
+        font-weight: bold;
+    }
+    color: $fontColor;
+    letter-spacing: 0;
+}
+
+@mixin font-large($size: 14px, $color: $gray-222, $isBlod: false) {
+    @include font-class($font-family-medium, $size, $color, $isBlod);
+}
+
+@mixin font-normal($size: 14px, $color: $gray-222, $isBlod: false) {
+    @include font-class($font-family-regular, $size, $color, $isBlod);
+}
+
+// 居中
+@mixin center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// 内容居中
+@mixin content-center {
+    width: $content-width;
+    margin: 0 auto;
+}

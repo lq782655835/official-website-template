@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="25px" viewBox="0 0 52 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic自然语言</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="57" height="60"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1首页" transform="translate(-993.000000, -657.000000)">
+            <g id="AI能力-灰底" transform="translate(0.000000, 472.000000)">
+                <g id="ic自然语言" transform="translate(990.000000, 169.000000)">
+                    <path d="M5.53793104,18.5354809 C9.13793103,34.8888889 11.8689655,38.4537815 14.3517241,38.4537815 C16.8344827,38.4537815 18.862069,33.1064426 20.7241379,27.8557423 C22.5862069,22.605042 24.6551724,17 27.6344827,17 C30.6137931,17 32.3931034,22.2829132 34.2137931,27.8557423 C36.0344828,33.4285714 37.6482759,38.3893558 40.2551724,38.3893558 C42.8620689,38.3893558 44.3931034,33.4285714 45.9241379,28.7254902 C47.9103448,22.9915966 50.062069,17.0644258 53.537931,17.0644258" id="Shape" stroke="#4383DB" stroke-width="2" fill-rule="nonzero"></path>
+                    <path d="M4.06994796,39.9207526 C4.68458971,40.0581158 5.27024359,39.8923147 5.82690961,39.4233495 C7.68560079,38.0852541 13.5157138,26.1246181 16.746992,26.1246181 C22.6967431,26.1246181 24.0740489,39.9912374 29.9509171,39.9207526 C35.8277853,39.8502679 37.9228165,26.1246181 43.6510923,26.1246181 C49.3793682,26.1246181 50.8917913,39.0087467 53.8906403,39.0087467" id="Path-40" stroke="#4383DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Rectangle-36" opacity="0">
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="56" height="59"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

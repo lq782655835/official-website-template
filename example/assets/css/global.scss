@@ -1,0 +1,71 @@
+@import './reset.scss';
+@import './variables.scss';
+
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: $font-family-regular;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: $content-width;
+    height: 100%;
+    background-color: $white;
+    color: $black;
+    font-size: 14px;
+    line-height: 1.375;
+}
+
+.layout {
+    width: $content-width;
+    margin: 0 auto;
+}
+
+.clearfix {
+    &:after {
+        clear: both;
+    }
+
+    &:after, &:before {
+        content: '';
+        display: table;
+        font: 0/0 a;
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.arraw {
+    border: solid #FFFFFF;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+
+    &.down {
+        transform: rotate(45deg);
+    }
+
+    &.left {
+        transform: rotate(135deg);
+    }
+
+    &.right {
+        transform: rotate(-45deg);
+    }
+}

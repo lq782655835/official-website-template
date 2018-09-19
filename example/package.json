@@ -1,0 +1,36 @@
+{
+    "name": "examples",
+    "version": "1.0.0",
+    "description": "quickly created a official website with seo",
+    "author": "springleo",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt & npm run svg:watch",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "svg:watch": "onchange 'assets/svg/*.svg' -- npm run svg",
+        "svg": "vsvg -s ./assets/svg -t ./assets/icon",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+        "format": "prettier --write './**/*.{js,ts,vue,json}'",
+        "precommit": "npm run format && npm run lint"
+    },
+    "dependencies": {
+        "nuxt": "^1.3.0"
+    },
+    "devDependencies": {
+        "ajv": "^6.5.2",
+        "axios": "^0.18.0",
+        "babel-eslint": "^8.2.6",
+        "eslint": "^5.2.0",
+        "eslint-plugin-vue": "^4.7.1",
+        "husky": "^0.14.3",
+        "node-sass": "^4.7.2",
+        "onchange": "^4.1.0",
+        "prettier": "1.13.4",
+        "sass-loader": "^6.0.7",
+        "sass-resources-loader": "^1.3.3",
+        "vue-awesome-swiper": "^3.1.3",
+        "vue-svgicon": "^3.0.4"
+    }
+}
