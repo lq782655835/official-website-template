@@ -1,4 +1,4 @@
-import http from '~/utils/http.js'
+import http from './http.js'
 
 /**
  * 合作咨询

@@ -12,7 +12,7 @@
 export default {
     data() {
         return {
-            data: require('./s-second-menu.json')
+            data: require('./s-next-menu.json')
         }
     },
     methods: {

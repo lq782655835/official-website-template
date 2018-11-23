@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { sendEmail } from '~/utils/api.js'
+import { sendEmail } from '~/server/api.js'
 
 export default {
     data() {
